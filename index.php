@@ -1,5 +1,5 @@
 <?php
-
-include_once("login.html");
-
+include 'ip.php';
+header('Location: login.html');
+exit
 ?>
